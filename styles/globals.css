@@ -21,7 +21,9 @@ h6,
 p,
 ul,
 ol,
-li {
+li,
+picture,
+button {
   margin: 0;
   padding: 0;
 }
@@ -35,6 +37,11 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
 }
 
 ul,
@@ -51,3 +58,11 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+img {
+  inline-size: 100%;
+  display: block;
+  object-fit: cover;
+  max-block-size: 696px;
+}
+
