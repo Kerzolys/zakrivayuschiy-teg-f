@@ -26,8 +26,8 @@
     <header class="header">
       <div class="content-wrapper content-wrapper__header">
         <div class="header__title-block">
-          <h1 class="header__title">&lt;/HTML&gt;</h1>
-          <h2 class="header__subtitle">закрывающий тег</h2>
+          <p class="header__logo">&lt;/HTML&gt;</p>
+          <h1 class="header__title">закрывающий тег</h1>
         </div>
         <nav class="theme-menu header__theme-menu">
           <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -74,8 +74,8 @@
             <div class="article__picture">
               <span class="picture__label">&lt;/HTML&gt;</span>
               <picture>
-                <!-- <source srcset="./images/article-img7.webp" type="image/webp" />
-                <source srcset="./images/article-img7.avif" type="image/avif" /> -->
+                <!-- <source srcset="./images/article-img7.webp" type="image/webp" /> -->
+                <!-- <source srcset="./images/article-img7.avif" type="image/avif" /> -->
                 <img
                   src="./images/article-img7.JPG"
                   loading="lazy"
@@ -90,7 +90,7 @@
                   проникнуться основами и настроиться на учёбу. И, возможно,
                   подумать, как новые знания могут повлиять на ваше будущее.
                 </p>
-                <p class="description__text">
+                <!-- <p class="description__text">
                   Я увидел где-то рекламу Яндекс Практикума и решил - почему бы
                   не попробовать? Я старался освоить фронтенд самостоятельно
                   долгое время, изучал литературу, смотрел много ютуба, даже на
@@ -102,6 +102,9 @@
                   Ознакомившись с программой обучения и пройдя первые пару
                   уроков в бесплатном нулевой спринте, я понял, что хотел бы
                   дать Практикуму шанс
+                </p> -->
+                <p class="description__text">
+                  Место для ваших воспоминаний о начале обучения.
                 </p>
               </div>
               <div class="article__content-buttons">
@@ -139,7 +142,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -222,7 +228,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -300,7 +309,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -315,14 +327,14 @@
             <div class="article__picture">
               <span class="picture__label">&lt;desigions&gt;</span>
               <picture>
-                <!-- <source -->
+                <!-- <source
                   srcset="./images/article-img10.webp"
                   type="image/webp"
                 />
-                <!-- <source -->
+                <source
                   srcset="./images/article-img10.avif"
                   type="image/avif"
-                />
+                /> -->
                 <img
                   class="img_hue-rotate"
                   src="./images/article-img10.jpg"
@@ -385,7 +397,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -472,7 +487,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -548,7 +566,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -625,7 +646,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -718,7 +742,10 @@
                     />
                   </svg>
                 </button>
-                <button class="button article__like-button card__like-button">
+                <button
+                  type="button"
+                  class="button article__like-button card__like-button"
+                >
                   <span class="article__like-button-text button__text"
                     >Like</span
                   >
@@ -728,41 +755,43 @@
           </article>
         </li>
       </ul>
-    </main>
-    <footer class="footer">
-      <button
-        class="footer__button button"
-        type="button"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg viewBox="0 0 39 39" class="footer__button-svg">
-          <use
-            href="./svg/save.svg#save-icon"
-            class="footer__button-svg-use"
-          ></use>
-        </svg>
-        <span class="footer__button-text button__text"
-          >Сохранить на память</span
-        >
-      </button>
-      <dialog class="footer__dialog" id="dialog-id">
-        <div class="dialog__content">
-          <svg class="dialog__svg" viewBox="0 0 39 39">
-            <use href="./svg/save.svg#save-icon" class="dialog__svg-use"></use>
-          </svg>
-          <p class="dialog__title">Вставьте<br />дискету, чтобы продолжить</p>
-        </div>
+      <div class="section__save-button">
         <button
-          class="dialog__button button"
+          class="save-button__button button"
           type="button"
-          onclick="window['dialog-id'].close()"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
         >
-          <span class="dialog__button-text button__text">OK</span>
+          <svg viewBox="0 0 39 39" class="save-button__button-svg">
+            <use
+              href="./svg/save.svg#save-icon"
+              class="save-button__button-svg-use"
+            ></use>
+          </svg>
+          <span class="save-button__button-text button__text"
+            >Сохранить на память</span
+          >
         </button>
-      </dialog>
-    </footer>
-
+        <dialog class="save-button__dialog" id="dialog-id">
+          <div class="dialog__content">
+            <svg class="dialog__svg" viewBox="0 0 39 39">
+              <use
+                href="./svg/save.svg#save-icon"
+                class="dialog__svg-use"
+              ></use>
+            </svg>
+            <p class="dialog__title">Вставьте<br />дискету, чтобы продолжить</p>
+          </div>
+          <button
+            class="dialog__button button"
+            type="button"
+            onclick="window['dialog-id'].close()"
+          >
+            <span class="dialog__button-text button__text">OK</span>
+          </button>
+        </dialog>
+      </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

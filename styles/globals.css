@@ -63,6 +63,12 @@ img {
   inline-size: 100%;
   display: block;
   object-fit: cover;
-  max-block-size: 696px;
+  max-block-size: 371px;
+}
+
+@media (width >= 1440px) {
+  img {
+    max-block-size: 696px;
+  }
 }
 
