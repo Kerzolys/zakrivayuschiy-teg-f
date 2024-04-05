@@ -124,6 +124,9 @@
   padding-block: 4.5px;
 }
 
+/* у меня в переменных для каждой темы, включая auto уже прописан каждый вес, и все вроде работаеты. 
+вопрос, насколько важен дополнительный font-variation-settings? */
+
 .theme-dark .article__title {
   font-variation-settings: 'wght' 785;
 }
