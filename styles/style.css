@@ -124,13 +124,6 @@
   padding-block: 4.5px;
 }
 
-/* у меня в переменных для каждой темы, включая auto уже прописан каждый вес, и все вроде работаеты. 
-вопрос, насколько важен дополнительный font-variation-settings? */
-
-.theme-dark .article__title {
-  font-variation-settings: 'wght' 785;
-}
-
 /* -----------PICTURE-BLOCK------------------------------------------------------------------------------ */
 
 .article__picture {
@@ -199,10 +192,6 @@
 .description__text {
   line-height: 1.16;
   font-weight: var(--font-weight-regular);
-}
-
-.theme-dark .description__text {
-  font-variation-settings: 'wght' 465;
 }
 
 .description__text:not(:last-child) {

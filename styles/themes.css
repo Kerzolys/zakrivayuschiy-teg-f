@@ -23,6 +23,8 @@
   --text-color: #000;
   --text-font-main: "Inter-Variable", Arial, Helvetica, sans-serif;
   --text-font-accent: PressStart2P, fantasy;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
   --button-text-color: #fff;
   --accent-color: #000;
   --animation-fill-color: #ff0000;
